@@ -18,7 +18,7 @@ function Dashboard() {
         <div className="dashboard-container">
             <div className="d-flex header-btns">
                 <div className={`btn ${activeTab == 1 && "active"}`} onClick={() => handleHeader(1)}>Knowledge Graph</div>
-                <div className={`btn ${activeTab == 2 && "active"}`} onClick={() => handleHeader(2)}>Flow</div>
+                <div className={`btn ${activeTab == 2 && "active"}`} onClick={() => handleHeader(2)}>Flow Graph</div>
             </div>
             {activeTab == 1 ? <ForceGraph /> : <NodeFlow
                 nodes={nodes}

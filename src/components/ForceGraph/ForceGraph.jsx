@@ -4,7 +4,7 @@ import RelationshipModal from './RelationshipModal';
 
 const initialData = {
     nodes: [
-        { id: 1, name: 'Node 1', parentColor: "#735da5", childColor: "#3d85c6", collapsed: false },
+        { id: 1, name: 'Node 1', parentColor: "#735da5", childColor: "#e0bcdd", collapsed: false },
     ],
     links: [],
 
@@ -43,7 +43,7 @@ function ForceGraph() {
                 setFormValidation(false)
             }
 
-            const colors = ["#6aa84f", "#3d85c6", "#f1c232", " #cc0000", "#e69138", "#7A288A", "#87CEEB", "#FF69B4", "#032B44"]
+            const colors = ["#6aa84f", "#3d85c6", "#f1c232", " #cc0000", "#e69138", "#7A288A", "#87CEEB", "#FF69B4", "#f2d496"]
             const randomIndex = Math.floor(Math.random() * colors.length);
             const randomColor = colors[randomIndex];
 
