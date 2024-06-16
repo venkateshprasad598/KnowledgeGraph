@@ -1,0 +1,22 @@
+.model-header-title {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+.add-relationship-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.relationship-info {
+  padding: 0.5rem 0;
+}
+
+.relationship-info-title {
+  font-weight: 600;
+}
+.kg-info {
+  font-weight: 600;
+  margin-left: 1rem;
+}

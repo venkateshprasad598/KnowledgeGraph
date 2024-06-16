@@ -1,0 +1,16 @@
+.dashboard-container {
+  height: 100vh;
+  /* width: 1300px; */
+}
+
+.align-center {
+  text-align: center;
+}
+
+.error-text {
+  color: red;
+}
+
+.d-flex {
+  display: flex;
+}

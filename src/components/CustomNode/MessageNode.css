@@ -1,0 +1,90 @@
+.react-flow__node-default {
+  padding: 0px;
+  border-radius: 0px;
+  width: 150px;
+  font-size: 12px;
+  color: #222;
+  text-align: center;
+  border-width: 0px;
+  border-style: none;
+  border-color: none;
+  background-color: none;
+}
+
+.react-flow__node-default.selectable.selected {
+  box-shadow: none;
+  /* overflow: hidden; */
+}
+
+.message-node-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: 0px solid #bbb;
+  font-size: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  /* position: "relative"; */
+  padding: 8px 32px;
+  flex-grow: 1;
+  background-color: #735da5;
+  border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.desc {
+  padding: 8px 0px;
+  font-weight: 600;
+}
+
+.btn {
+  border: 2px solid #735da5;
+  color: #735da5;
+  font-weight: 700;
+  white-space: noWrap;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: fit-content;
+}
+
+.btn:hover {
+  background-color: #735da5;
+  border: 2px solid #735da5;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.sibling-button {
+  position: absolute;
+  bottom: -75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.child-button {
+  position: absolute;
+  right: -92%;
+  top: 25%;
+  transform: translateX(-50%);
+}
+
+.header-btns {
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.header-btns .active {
+  background-color: #735da5;
+  border: 2px solid #735da5;
+  transition: 0.5s;
+  color: #fff;
+}
