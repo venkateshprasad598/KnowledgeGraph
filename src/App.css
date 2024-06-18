@@ -1,5 +1,5 @@
 .dashboard-container {
-  height: 100vh;
+  height: calc(100vh - 90px);
   /* width: 1300px; */
 }
 
