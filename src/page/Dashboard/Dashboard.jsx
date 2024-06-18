@@ -2,7 +2,6 @@ import ForceGraph from "../../components/ForceGraph/ForceGraph";
 import NodeFlow from "../../components/NodeFlow"
 import useDashboard from "../../hooks/useDashboard";
 
-
 function Dashboard() {
 
     const {

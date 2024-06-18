@@ -11,7 +11,6 @@ const initialData = {
 };
 
 function ForceGraph() {
-
     const [graphData, setGraphData] = useState(initialData);
     const [selectedNode, setSelectedNode] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);

@@ -120,6 +120,3 @@ function RelationshipModal({ open, node, onClose, onSave, onDelete, setAction, a
 }
 
 export default RelationshipModal;
-
-
-// <Button onClick={() => onExpandCollapse(node)}>{node.collapsed ? "Expand" : "Collapse"}</Button>
